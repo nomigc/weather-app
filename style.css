@@ -1,0 +1,128 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.btn-outline-success {
+  padding: 11px 0px !important;
+}
+
+.search-container {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 50px;
+  padding: 10px 20px !important;
+}
+
+.form-control {
+
+  border: none !important;
+}
+
+.weather-shadow {
+  text-shadow: 2px 2px 8px #000;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  /* margin: 20px; */
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/* An Overlay To Dim The Image And Make Text Readable*/
+/* #color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #34495e, #2c3e50);
+    opacity: 0.6;
+    z-index: -1;
+} */
+.card {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.card>* {
+  color: #000000 !important;
+}
+
+
+
+body {
+  background: url("https://images.unsplash.com/photo-1461080639469-66d73688fb21?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dfec7f536c4133dc029608d2488e13e9");
+  animation: chbg 15s infinite alternate;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+@keyframes chbg {
+  0% {
+    background: url("https://images.unsplash.com/photo-1463003416389-296a1ad37ca0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bed2a6743851633b655ae774c15ac07");
+    background-size: cover
+  }
+
+  20% {
+    background: url("https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80");
+    background-size: cover
+  }
+
+  40% {
+    background: url("https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?w=740&t=st=1683778970~exp=1683779570~hmac=9c0e6bca5912073f3f0627949f481a18547954f1d608f80b291c0fdb0b614c11");
+    background-size: cover
+  }
+
+  60% {
+    background: url("https://images.unsplash.com/photo-1461080639469-66d73688fb21?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dfec7f536c4133dc029608d2488e13e9");
+    background-size: cover
+  }
+
+  80% {
+    background: url("https://images.unsplash.com/photo-1461770354136-8f58567b617a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f0c8c34fe56f9669d1c6d129f597f895");
+    background-size: cover
+  }
+
+  100% {
+    background: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover
+  }
+}
